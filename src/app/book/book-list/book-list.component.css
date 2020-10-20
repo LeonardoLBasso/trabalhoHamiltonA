@@ -1,0 +1,15 @@
+:host {
+    display: block;
+}
+
+:root{
+    --color-blue:#09f;
+}
+
+.bolinha::before {
+    content: "\2022";
+    color: var(--color-blue);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+}
